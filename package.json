@@ -4,7 +4,7 @@
   "description": "A boilerplate for Node.js web applications",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sahat/hackathon-starter.git"
+    "url": "git+https://github.com/sahat/hackathon-starter.git"
   },
   "author": "Sahat Yalkabov",
   "license": "MIT",
@@ -39,9 +39,11 @@
     "mongoose": "^4.11.7",
     "morgan": "^1.8.2",
     "multer": "^1.3.0",
+    "node-cmd": "^3.0.0",
     "node-foursquare": "^0.3.0",
     "node-linkedin": "^0.5.6",
     "node-sass-middleware": "^0.11.0",
+    "node-ssh": "^5.1.1",
     "nodemailer": "^4.0.1",
     "passport": "0.4.0",
     "passport-facebook": "^2.1.1",
@@ -94,5 +96,13 @@
     "plugins": [
       "chai-friendly"
     ]
+  },
+  "bugs": {
+    "url": "https://github.com/sahat/hackathon-starter/issues"
+  },
+  "homepage": "https://github.com/sahat/hackathon-starter#readme",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
   }
 }
